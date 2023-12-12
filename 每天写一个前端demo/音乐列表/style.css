@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+}
+
+.music-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.music-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.music-list li:hover {
+  background-color: #f2f2f2;
+}
+
+.music-list li:nth-child(even) {
+  background-color: #f9f9f9;
+}
